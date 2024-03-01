@@ -31,3 +31,4 @@ When fastlane is setup, you can run either commands for generating IPA (iOS) or 
 fastlane ios beta
 fastlane android beta
 ```
+
