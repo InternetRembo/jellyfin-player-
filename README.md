@@ -1,24 +1,6 @@
 <div align="center">
 
-![Fintunes](./docs/images/fintunes-banner.png)
 
-[![Get Fintunes on the App Store](./docs/images/app-store.svg)](https://apple.co/3MFYIJH)
-[<img src="./docs/images/google-play.png"
-    alt="Get Fintunes on Google Play"
-    height="40">](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer)
-[<img src="./docs/images/f-droid.png"
-    alt="Get Fintunes on F-Droid"
-    height="40">](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer/)
-
-[![Latest GitHub release](https://img.shields.io/github/v/release/leinelissen/jellyfin-audio-player?label=latest%20release)](https://github.com/leinelissen/jellyfin-audio-player/releases/latest)
-[![Latest App Store release](https://img.shields.io/itunes/v/1527732194?label=app%20store)](https://apple.co/3MFYIJH)
-[![Latest Google Play release](https://img.shields.io/endpoint?url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dnl.moeilijkedingen.jellyfinaudioplayer%26l%3Dgoogle%2520play%26m%3D%24version)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer)
-[![Join the TestFlight beta](https://img.shields.io/badge/TestFlight-beta-blue)](https://testflight.apple.com/join/TpHWMmfM)
-[![Latest F-Droid release](https://img.shields.io/f-droid/v/nl.moeilijkedingen.jellyfinaudioplayer)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer/)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/leinelissen/jellyfin-audio-player/fastlane.yml)
-[![MIT License](https://img.shields.io/github/license/leinelissen/jellyfin-audio-player)](./LICENSE.md)
-[![Discord](https://img.shields.io/discord/1080781083882307594)](https://discord.gg/xyd97GpC4Q)
-[![Translation status](https://hosted.weblate.org/widgets/fintunes/-/app/svg-badge.svg)](https://hosted.weblate.org/engage/fintunes/)
   
 <br />
 
@@ -33,24 +15,6 @@ With Fintunes, you can stream your Jellyfin audio library in full quality. List 
 |-|-|-|
 |![](./docs/images/album.png)|![](./docs/images/downloads.png)|![](./docs/images/search.png)
 
-## Getting Started
-Fintunes is available on the [App Store](https://apple.co/3MFYIJH). It is in the process of being released on both Google Play and F-Droid. You can also grab either an APK or IPA from the [release page](https://github.com/leinelissen/jellyfin-audio-player/releases/latest). If you are feeling frisky, you can compile Fintunes from source using the settings below.
-
-### Using the app
-You will need to setup your Jellyfin account for the application to be able to pull in all your audio. To do this, go over to the "Settings" tab and click the "Set Jellyfin server"-button. A modal will pop up in which you will enter your Jellyfin server URL, after which you enter your credentials in the provided browser view. When the app detects your credentials, they will automatically be remembered for the future.
-
-## Building from source
-### Prerequisites
-This project is built on React Native, and first of all requires [NodeJS](https://nodejs.org/en/) to be installed. After installing it and cloning this repository, don't forget ton run `npm install` on your command line, so that all Node dependencies are installed.
-
-#### iOS Prerequisites
-[XCode](https://developer.apple.com/download/) is required to build the iOS application. It also comes bundles with iOS simulators which make development exceedingly easy. This does mean that iOS development is limited to macs.
-
-#### Android prerequisites
-[Android Studio](https://developer.android.com/studio/install) is recommended for development as it includes the Android SDK as well as Android Simulators for devleopment. At the very least, installing the Android SDK is neccessary for building any version of the app.
-
-### Development Build
-As soon as all prerequisites are covered, you can start development in either iOS or Android simulators by running the following
 ```
 npm run ios
 npm run android
@@ -67,17 +31,3 @@ When fastlane is setup, you can run either commands for generating IPA (iOS) or 
 fastlane ios beta
 fastlane android beta
 ```
-
-## Translations
-Translations for this project are managed using Weblate. All contributions are warmly welcomed. Click the chart below to contribute a translation.
-
-[![Translation status](https://hosted.weblate.org/widgets/fintunes/-/app/multi-blue.svg)](https://hosted.weblate.org/engage/fintunes/)
-
-## Licensing and Credits
-This work is licensed under the MIT license and was built by Lei Nelissen.
-
-<a href="https://bmd.studio">
-    <img src="./docs/images/bmd-logo-icon.png" alt="BMD Studio" width="150" height="150" />
-</a>
-
-An Apple Developer license, as well as various forms of support are graciously provided for by [BMD Studio](https://bmd.studio), experts in finding creative solutions for difficult problems.
